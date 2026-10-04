@@ -1,0 +1,2 @@
+资源文件第1行(用于测试)。😄😄😄
+Resource file line 2 (for testing).😄😄😄

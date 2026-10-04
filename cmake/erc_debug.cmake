@@ -1,0 +1,13 @@
+function(erc_debug)
+    if(ERC_DEBUG)
+        message(STATUS ${ARGN})
+    endif()
+endfunction()
+
+macro(erc_debug_info self)
+    erc_debug("[erc] 载入 ${self}")
+    erc_debug("[erc] CMAKE_CURRENT_LIST_DIR = '${CMAKE_CURRENT_LIST_DIR}'")
+    erc_debug("[erc] CMAKE_BINARY_DIR       = '${CMAKE_BINARY_DIR}'")
+    erc_debug("[erc] CMAKE_BUILD_TYPE       = '${CMAKE_BUILD_TYPE}'")
+    erc_debug("[erc] CMAKE_GENERATOR        = '${CMAKE_GENERATOR}'")
+endmacro()

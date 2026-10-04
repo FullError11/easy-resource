@@ -1,0 +1,2 @@
+hello, easy-resource!
+it's a simple resource example.
